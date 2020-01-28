@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/Example/ds_etl_force" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Projects/Test/ds_etl_force" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Projects/ds_etl_force" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Projects/ds_etl_force-feature-XF-429-transformation-content" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Projects/sparky-conciliation" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Projects/sparky-conciliation/ds_einstein" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Projects/sparkyFinal/ds_etl_force/conciliation" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Spark-daria/spark-daria" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Spark-daria/spark-daria-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../SparkEnd/ds_etl_force/conciliation" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../SparkEnd/ds_etl_force/core-etl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../SparkEndFinal/ds_etl_force/conciliation" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../SparkEndFinal/ds_etl_force/core" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../finalProject/flink-streaming-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../flink/local/projects/scala-flink" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../testFlinkHope/flink-streaming-confluent/scala-sbt" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
