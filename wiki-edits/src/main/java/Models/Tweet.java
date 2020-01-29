@@ -119,7 +119,7 @@ public class Tweet {
                 ", listed_count = '" + listed_count + '\'' +
                 ", text = '" + text + '\'' +
                 ", language = '" + language + '\'' +
-                ", tags = '" + tags + '\'' +
+                ", tags = " + tags  +
                 '}';
     }
 
