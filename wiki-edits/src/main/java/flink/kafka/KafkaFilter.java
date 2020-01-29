@@ -1,4 +1,4 @@
-package flink;
+package flink.kafka;
 
 import Helpers.Constants;
 import Helpers.Util;

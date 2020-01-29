@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d898cc-72fc-4229-ac38-ce2ea0e9c38e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helpers/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helpers/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Implementations/CodeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Implementations/CodeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flink/KafkaWordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flink/KafkaWordCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flink/NumberOfTweetsPerLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flink/NumberOfTweetsPerLanguage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flink/TopHashTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flink/TopHashTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flink/TopTagPerLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flink/TopTagPerLanguage.java" afterDir="false" />
-    </list>
+    <list default="true" id="33d898cc-72fc-4229-ac38-ce2ea0e9c38e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,215 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/flink/NumberOfTweetsPerLanguage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
+            <state relative-caret-position="265">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#856#884#0" expanded="true" />
-                <element signature="e#1849#1939#0" expanded="true" />
-                <element signature="e#1849#1939#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/flink/TopHashTag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#800#848#1" expanded="true" />
-                <element signature="e#819#847#0" expanded="true" />
-                <element signature="e#857#943#1" expanded="true" />
-                <element signature="e#890#942#0" expanded="true" />
-                <element signature="e#1424#1554#0" expanded="true" />
-                <element signature="e#1288#1298#0" expanded="true" />
-                <element signature="e#1300#1315#0" expanded="true" />
-                <element signature="e#1424#1554#0" expanded="true" />
-                <element signature="e#1983#2006#1" expanded="true" />
-                <element signature="e#2031#2045#1" expanded="true" />
-                <element signature="e#2211#2480#0" expanded="true" />
-                <element signature="e#2075#2106#0" expanded="true" />
-                <element signature="e#2211#2480#0" expanded="true" />
-                <element signature="e#2291#2454#0" expanded="true" />
-                <element signature="e#2291#2454#0" expanded="true" />
-                <element signature="e#2404#2419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/flink/TopTagPerLanguage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#653#701#1" expanded="true" />
-                <element signature="e#672#700#0" expanded="true" />
-                <element signature="e#710#796#1" expanded="true" />
-                <element signature="e#743#795#0" expanded="true" />
-                <element signature="e#1387#1541#0" expanded="true" />
-                <element signature="e#1229#1239#0" expanded="true" />
-                <element signature="e#1242#1257#0" expanded="true" />
-                <element signature="e#1387#1541#0" expanded="true" />
-                <element signature="e#1321#1340#0" expanded="true" />
-                <element signature="e#2842#3008#0" expanded="true" />
-                <element signature="e#2842#3008#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/CodeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Code.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-              <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-                <element signature="e#461#571#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Tweet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1468#1469#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
-                <element signature="e#1626#1627#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1726#1727#0" expanded="true" />
-                <element signature="e#1756#1757#0" expanded="true" />
-                <element signature="e#1782#1783#0" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#1969#1970#0" expanded="true" />
-                <element signature="e#2000#2001#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2122#2123#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2198#2199#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
-                <element signature="e#2368#2369#0" expanded="true" />
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-                <element signature="e#2529#3344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#264#1" expanded="true" />
-                <element signature="e#804#840#1" expanded="true" />
+                <element signature="e#1825#1915#0" expanded="true" />
+                <element signature="e#1825#1915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -405,11 +195,11 @@
   </component>
   <component name="RunManager" selected="Application.NumberOfTweetsPerLanguage">
     <configuration name="KafkaFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.KafkaFilter" />
+      <option name="MAIN_CLASS_NAME" value="flink.kafka.KafkaFilter" />
       <module name="flink-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flink.*" />
+          <option name="PATTERN" value="flink.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,11 +208,11 @@
       </method>
     </configuration>
     <configuration name="NumberOfTweetsPerLanguage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.NumberOfTweetsPerLanguage" />
+      <option name="MAIN_CLASS_NAME" value="flink.twitter.NumberOfTweetsPerLanguage" />
       <module name="flink-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flink.*" />
+          <option name="PATTERN" value="flink.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,11 +221,11 @@
       </method>
     </configuration>
     <configuration name="TopHashTag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.TopHashTag" />
+      <option name="MAIN_CLASS_NAME" value="flink.twitter.TopHashTag" />
       <module name="flink-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flink.*" />
+          <option name="PATTERN" value="flink.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,11 +234,11 @@
       </method>
     </configuration>
     <configuration name="TopTagPerLanguage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.TopTagPerLanguage" />
+      <option name="MAIN_CLASS_NAME" value="flink.twitter.TopTagPerLanguage" />
       <module name="flink-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flink.*" />
+          <option name="PATTERN" value="flink.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,11 +247,11 @@
       </method>
     </configuration>
     <configuration name="TwitterConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flink.TwitterConnect" />
+      <option name="MAIN_CLASS_NAME" value="flink.twitter.TwitterConnect" />
       <module name="flink-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flink.*" />
+          <option name="PATTERN" value="flink.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -563,7 +353,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -671,66 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flink/NumberOfTweetsPerLanguage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#856#884#0" expanded="true" />
-            <element signature="e#1849#1939#0" expanded="true" />
-            <element signature="e#1849#1939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flink/TopHashTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#800#848#1" expanded="true" />
-            <element signature="e#819#847#0" expanded="true" />
-            <element signature="e#857#943#1" expanded="true" />
-            <element signature="e#890#942#0" expanded="true" />
-            <element signature="e#1424#1554#0" expanded="true" />
-            <element signature="e#1288#1298#0" expanded="true" />
-            <element signature="e#1300#1315#0" expanded="true" />
-            <element signature="e#1424#1554#0" expanded="true" />
-            <element signature="e#1983#2006#1" expanded="true" />
-            <element signature="e#2031#2045#1" expanded="true" />
-            <element signature="e#2211#2480#0" expanded="true" />
-            <element signature="e#2075#2106#0" expanded="true" />
-            <element signature="e#2211#2480#0" expanded="true" />
-            <element signature="e#2291#2454#0" expanded="true" />
-            <element signature="e#2291#2454#0" expanded="true" />
-            <element signature="e#2404#2419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flink/TopTagPerLanguage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#653#701#1" expanded="true" />
-            <element signature="e#672#700#0" expanded="true" />
-            <element signature="e#710#796#1" expanded="true" />
-            <element signature="e#743#795#0" expanded="true" />
-            <element signature="e#1387#1541#0" expanded="true" />
-            <element signature="e#1229#1239#0" expanded="true" />
-            <element signature="e#1242#1257#0" expanded="true" />
-            <element signature="e#1387#1541#0" expanded="true" />
-            <element signature="e#1321#1340#0" expanded="true" />
-            <element signature="e#2842#3008#0" expanded="true" />
-            <element signature="e#2842#3008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -746,23 +475,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#228#264#1" expanded="true" />
             <element signature="e#804#840#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/CodeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Code.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+        <state relative-caret-position="525">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
@@ -863,6 +575,83 @@
             <element signature="e#461#571#0" expanded="true" />
             <element signature="e#461#571#0" expanded="true" />
             <element signature="e#461#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/CodeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flink/TopTagPerLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#653#701#1" expanded="true" />
+            <element signature="e#672#700#0" expanded="true" />
+            <element signature="e#710#796#1" expanded="true" />
+            <element signature="e#743#795#0" expanded="true" />
+            <element signature="e#1385#1539#0" expanded="true" />
+            <element signature="e#1229#1239#0" expanded="true" />
+            <element signature="e#1242#1257#0" expanded="true" />
+            <element signature="e#1385#1539#0" expanded="true" />
+            <element signature="e#1321#1340#0" expanded="true" />
+            <element signature="e#2840#3006#0" expanded="true" />
+            <element signature="e#2840#3006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flink/TopHashTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#800#848#1" expanded="true" />
+            <element signature="e#819#847#0" expanded="true" />
+            <element signature="e#857#943#1" expanded="true" />
+            <element signature="e#890#942#0" expanded="true" />
+            <element signature="e#1423#1553#0" expanded="true" />
+            <element signature="e#1288#1298#0" expanded="true" />
+            <element signature="e#1300#1315#0" expanded="true" />
+            <element signature="e#1423#1553#0" expanded="true" />
+            <element signature="e#1983#2006#1" expanded="true" />
+            <element signature="e#2031#2045#1" expanded="true" />
+            <element signature="e#2210#2479#0" expanded="true" />
+            <element signature="e#2075#2106#0" expanded="true" />
+            <element signature="e#2210#2479#0" expanded="true" />
+            <element signature="e#2290#2453#0" expanded="true" />
+            <element signature="e#2290#2453#0" expanded="true" />
+            <element signature="e#2404#2419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flink/NumberOfTweetsPerLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#884#0" expanded="true" />
+            <element signature="e#1825#1915#0" expanded="true" />
+            <element signature="e#1825#1915#0" expanded="true" />
           </folding>
         </state>
       </provider>
