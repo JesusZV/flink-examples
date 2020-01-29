@@ -1,6 +1,7 @@
 package flink;
 
 import Helpers.Constants;
+import Helpers.Util;
 import Implementations.CodeMap;
 import Models.Code;
 import org.apache.flink.api.common.functions.FlatMapFunction;
@@ -15,10 +16,9 @@ public class KafkaWordCounter {
 
     public static void main(String[] args) throws Exception {
 
-        Properties props = new Properties();
-        props.setProperty(Constants.bootstrapservers, Constants.kafkaUrl);
-        props.setProperty(Constants.groupId, Constants.kafkaGroupId);
+        Properties props = new Util().getKafkaProps();
         String topicName = "conekta.public.codes";
+
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.addSource(new FlinkKafkaConsumer010<>(topicName, new SimpleStringSchema(), props))
                 .map(new CodeMap())

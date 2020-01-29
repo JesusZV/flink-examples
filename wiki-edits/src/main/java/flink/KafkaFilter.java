@@ -1,6 +1,7 @@
 package flink;
 
 import Helpers.Constants;
+import Helpers.Util;
 import Implementations.CodeMap;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
@@ -14,16 +15,13 @@ public class KafkaFilter {
     public static void main(String[] args) throws Exception {
 
         //Required props for kafka connector to start
-        Properties properties = new Properties();
-        properties.setProperty(Constants.bootstrapservers, Constants.kafkaUrl);
-        properties.setProperty(Constants.groupId, Constants.kafkaGroupId);
+        Properties props = new Util().getKafkaProps();
         String topicName = "conekta.public.codes";
 
         //Start getting the execution env (Cluster or local)
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
-
-        env.addSource(new FlinkKafkaConsumer010<>(topicName, new SimpleStringSchema(), properties))
+        env.addSource(new FlinkKafkaConsumer010<>(topicName, new SimpleStringSchema(), props))
                 .map(new CodeMap())
                 .filter(new FilterFunction<Code>() {
                     @Override

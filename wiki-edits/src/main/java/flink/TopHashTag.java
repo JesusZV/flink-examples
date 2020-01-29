@@ -33,13 +33,15 @@ public class TopHashTag {
                     }
                 })
                 .keyBy(0)
-                .timeWindow(Time.minutes(1))
+                .timeWindow(Time.seconds(20))
                 .sum(1)
-                .timeWindowAll(Time.minutes(1))
+                .timeWindowAll(Time.seconds(20))
                 .apply(new AllWindowFunction<Tuple2<String, Integer>, Tuple3<Date, String, Integer>, TimeWindow>() {
 
                     @Override
-                    public void apply(TimeWindow window, Iterable<Tuple2<String, Integer>> iterable, Collector<Tuple3<Date, String, Integer>> collector) throws Exception {
+                    public void apply(TimeWindow window, Iterable<Tuple2<String, Integer>> iterable,
+                                      Collector<Tuple3<Date, String, Integer>> collector) throws Exception {
+
                         String topHashTag = "";
                         int count = 0;
                         for (Tuple2<String, Integer> hashtag : iterable ) {

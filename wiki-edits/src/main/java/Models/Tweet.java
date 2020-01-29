@@ -3,6 +3,7 @@ package Models;
 import java.util.List;
 
 public class Tweet {
+
     private long   id;
     private String id_str;
     private String name;

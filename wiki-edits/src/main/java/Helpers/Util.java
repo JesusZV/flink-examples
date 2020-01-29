@@ -16,5 +16,12 @@ public class Util {
         return props;
     }
 
+    public Properties getKafkaProps() {
+        Properties props = new Properties();
+        props.setProperty(Constants.bootstrapservers, Constants.kafkaUrl);
+        props.setProperty(Constants.groupId, Constants.kafkaGroupId);
+        return props;
+    }
+
 
 }
