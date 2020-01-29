@@ -154,7 +154,7 @@ under the License.
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>wikiedits.KafkaFilter</mainClass>
+									<mainClass>flink.KafkaFilter</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

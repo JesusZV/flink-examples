@@ -1,4 +1,4 @@
-package wikiedits;
+package flink;
 
 import Helpers.Constants;
 import Implementations.CodeMap;

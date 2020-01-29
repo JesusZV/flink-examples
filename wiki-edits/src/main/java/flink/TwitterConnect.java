@@ -1,5 +1,6 @@
-package wikiedits;
+package flink;
 
+import Helpers.Constants;
 import Implementations.TweetMap;
 import Models.Tweet;
 import org.apache.flink.api.common.functions.FilterFunction;
@@ -13,10 +14,10 @@ public class TwitterConnect {
 
     public static void main(String[] args) throws Exception {
         Properties props = new Properties();
-        props.setProperty(TwitterSource.CONSUMER_KEY, "qSd5kHU9e4CHRkfcDl7i22NfR");
-        props.setProperty(TwitterSource.CONSUMER_SECRET, "UfteRXRoURM8Xaxe59nFsFfvXp61utc4u81HfufOulF2e6OkXB");
-        props.setProperty(TwitterSource.TOKEN, "90670132-keD60R8trHJZDwwDHIzISZYfsnLeict4fB1eBTdjv");
-        props.setProperty(TwitterSource.TOKEN_SECRET, "yJp33LxHMwoQGahKyh08IYErqQJYbbgaVsc2t2vvIFtnK");
+        props.setProperty(TwitterSource.CONSUMER_KEY, Constants.consumerKey);
+        props.setProperty(TwitterSource.CONSUMER_SECRET, Constants.consumerSecret);
+        props.setProperty(TwitterSource.TOKEN, Constants.twitterToken);
+        props.setProperty(TwitterSource.TOKEN_SECRET, Constants.twitterTokenSecret);
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStreamSink<Tweet> streamSource = env.addSource(new TwitterSource(props))
