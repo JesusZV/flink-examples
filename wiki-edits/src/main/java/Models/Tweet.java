@@ -1,6 +1,6 @@
 package Models;
 
-public class User {
+public class Tweet {
     private long   id;
     private String id_str;
     private String name;
@@ -16,11 +16,11 @@ public class User {
     private String text;
     private String language;
 
-    public User() {
+    public Tweet() {
 
     }
 
-    public User(long id, String id_str, String name, String screen_name, String location, String url,
+    public Tweet(long id, String id_str, String name, String screen_name, String location, String url,
                 String description, String translator_type, String verified, Integer followers_count,
                 Integer friends_count, Integer listed_count, String text, String language) {
 

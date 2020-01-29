@@ -1,7 +1,7 @@
 package wikiedits;
 
 import Helpers.Constants;
-import Implementations.MapToCode;
+import Implementations.CodeMap;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -24,7 +24,7 @@ public class KafkaFilter {
 
 
         env.addSource(new FlinkKafkaConsumer010<>(topicName, new SimpleStringSchema(), properties))
-                .map(new MapToCode())
+                .map(new CodeMap())
                 .filter(new FilterFunction<Code>() {
                     @Override
                     public boolean filter(Code code) {

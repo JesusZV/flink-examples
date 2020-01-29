@@ -9,7 +9,7 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMap
  * Implements  the MapFunction Interface the first parameter on <String, Code>
  *  is the input value, the second is the output value
  */
-public  class MapToCode implements MapFunction<String, Code> {
+public  class CodeMap implements MapFunction<String, Code> {
 
     static private final ObjectMapper mapper = new ObjectMapper();
 

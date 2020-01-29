@@ -1,7 +1,7 @@
 package wikiedits;
 
 import Helpers.Constants;
-import Implementations.MapToCode;
+import Implementations.CodeMap;
 import Models.Code;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
@@ -21,7 +21,7 @@ public class KafkaWordCounter {
         String topicName = "conekta.public.codes";
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.addSource(new FlinkKafkaConsumer010<>(topicName, new SimpleStringSchema(), props))
-                .map(new MapToCode())
+                .map(new CodeMap())
                 .flatMap(new FlatMapFunction<Code, String>() {
                     @Override
                     public void flatMap(Code value, Collector<String> out)
