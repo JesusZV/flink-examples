@@ -37,7 +37,8 @@ public class TopTagPerLanguage {
                 // Count how many times each tag was used in tweets by different languages
                 .reduce(new ReduceFunction<Tuple3<String, String, Long>>() {
                     @Override
-                    public Tuple3<String, String, Long> reduce(Tuple3<String, String, Long> tag1, Tuple3<String, String, Long> tag2) throws Exception {
+                    public Tuple3<String, String, Long> reduce(Tuple3<String, String, Long> tag1,
+                                                               Tuple3<String, String, Long> tag2) throws Exception {
                         return new Tuple3<>(tag1.f0, tag1.f1, tag1.f2 + tag2.f2);
                     }
                 })// DataStream<Tuple3<String, String, Long>
@@ -46,7 +47,8 @@ public class TopTagPerLanguage {
                 .timeWindow(Time.minutes(2))
                 .reduce(new ReduceFunction<Tuple3<String, String, Long>>() {
                     @Override
-                    public Tuple3<String, String, Long> reduce(Tuple3<String, String, Long> tag1, Tuple3<String, String, Long> tag2) throws Exception {
+                    public Tuple3<String, String, Long> reduce(Tuple3<String, String, Long> tag1,
+                                                               Tuple3<String, String, Long> tag2) throws Exception {
                         if (tag1.f2 >= tag2.f2) {
                             return tag1;
                         } else {
