@@ -1,6 +1,6 @@
 package flink;
 
-import Helpers.Constants;
+import Helpers.Util;
 import Implementations.TweetMap;
 import Models.Tweet;
 import org.apache.flink.api.java.functions.KeySelector;
@@ -21,12 +21,7 @@ public class NumberOfTweetsPerLanguage {
 
     public static void main(String[] args) throws Exception {
 
-        Properties props = new Properties();
-        props.setProperty(TwitterSource.CONSUMER_KEY, Constants.consumerKey);
-        props.setProperty(TwitterSource.CONSUMER_SECRET, Constants.consumerSecret);
-        props.setProperty(TwitterSource.TOKEN, Constants.twitterToken);
-        props.setProperty(TwitterSource.TOKEN_SECRET, Constants.twitterTokenSecret);
-
+        Properties props = new Util().getTwitterProps();
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
          env.addSource(new TwitterSource(props))
