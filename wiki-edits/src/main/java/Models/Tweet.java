@@ -1,5 +1,7 @@
 package Models;
 
+import java.util.List;
+
 public class Tweet {
     private long   id;
     private String id_str;
@@ -15,6 +17,7 @@ public class Tweet {
     private Integer listed_count;
     private String text;
     private String language;
+    private List<String> tags;
 
     public Tweet() {
 
@@ -22,7 +25,7 @@ public class Tweet {
 
     public Tweet(long id, String id_str, String name, String screen_name, String location, String url,
                 String description, String translator_type, String verified, Integer followers_count,
-                Integer friends_count, Integer listed_count, String text, String language) {
+                Integer friends_count, Integer listed_count, String text, String language, List<String> tags) {
 
         this.id = id;
         this.id_str = id_str;
@@ -38,7 +41,7 @@ public class Tweet {
         this.listed_count = listed_count;
         this.text = text;
         this.language = language;
-
+        this.tags = tags;
     }
 
     // Getter Methods
@@ -95,6 +98,10 @@ public class Tweet {
 
     public String getLanguage() {return language; }
 
+    public List<String> getTags() {
+        return tags;
+    }
+
     @Override
     public String toString() {
         return "Tweet{" +
@@ -112,6 +119,7 @@ public class Tweet {
                 ", listed_count = '" + listed_count + '\'' +
                 ", text = '" + text + '\'' +
                 ", language = '" + language + '\'' +
+                ", tags = '" + tags + '\'' +
                 '}';
     }
 

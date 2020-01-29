@@ -5,6 +5,10 @@ import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.JsonNode;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class TweetMap implements MapFunction<String, Tweet> {
 
     static private final ObjectMapper mapper = new ObjectMapper();
@@ -48,6 +52,18 @@ public class TweetMap implements MapFunction<String, Tweet> {
             int listedCount = listed_countNode == null ? 0 : listed_countNode.asInt();
             String text = textNode.asText();
             String language = languageNode.asText();
+
+            List<String> tags = new ArrayList<>();
+            JsonNode entities = tweetJson.get("entities");
+            if (entities != null) {
+                JsonNode hashtags = entities.get("hashtags");
+
+                for (Iterator<JsonNode> iter = hashtags.elements(); iter.hasNext();) {
+                    JsonNode node = iter.next();
+                    String hashtag = node.get("text").asText();
+                    tags.add(hashtag);
+                }
+            }
 
             return new Tweet(id, idStr, name, screenName, location, url, description, translation_type, verified,
                     followersCount, friendsCount, listedCount, text, language);
