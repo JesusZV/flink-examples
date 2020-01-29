@@ -66,7 +66,7 @@ public class TweetMap implements MapFunction<String, Tweet> {
             }
 
             return new Tweet(id, idStr, name, screenName, location, url, description, translation_type, verified,
-                    followersCount, friendsCount, listedCount, text, language);
+                    followersCount, friendsCount, listedCount, text, language, tags);
         }
         return new Tweet();
     }

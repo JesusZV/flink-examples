@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33d898cc-72fc-4229-ac38-ce2ea0e9c38e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Tweet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="294">
+              <caret line="68" column="82" selection-start-line="68" selection-start-column="82" selection-end-line="68" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#516#567#1" expanded="true" />
@@ -86,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Models/Tweet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="605">
@@ -171,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Helpers/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/flink/TwitterConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/flink/TwitterWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Tweet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java" />
       </list>
     </option>
   </component>
@@ -477,69 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/flink/TwitterWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#348#1" expanded="true" />
-            <element signature="e#677#763#1" expanded="true" />
-            <element signature="e#850#896#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#567#1" expanded="true" />
-            <element signature="e#576#618#1" expanded="true" />
-            <element signature="e#627#669#1" expanded="true" />
-            <element signature="e#678#724#1" expanded="true" />
-            <element signature="e#814#851#1" expanded="true" />
-            <element signature="e#864#909#1" expanded="true" />
-            <element signature="e#922#963#1" expanded="true" />
-            <element signature="e#976#1031#1" expanded="true" />
-            <element signature="e#1044#1093#1" expanded="true" />
-            <element signature="e#1106#1145#1" expanded="true" />
-            <element signature="e#1158#1214#1" expanded="true" />
-            <element signature="e#1227#1290#1" expanded="true" />
-            <element signature="e#1303#1352#1" expanded="true" />
-            <element signature="e#1365#1432#1" expanded="true" />
-            <element signature="e#1445#1504#1" expanded="true" />
-            <element signature="e#1517#1574#1" expanded="true" />
-            <element signature="e#1607#1655#1" expanded="true" />
-            <element signature="e#1668#1729#1" expanded="true" />
-            <element signature="e#1742#1798#1" expanded="true" />
-            <element signature="e#1811#1887#1" expanded="true" />
-            <element signature="e#1900#1969#1" expanded="true" />
-            <element signature="e#1982#2035#1" expanded="true" />
-            <element signature="e#2048#2127#1" expanded="true" />
-            <element signature="e#2140#2230#1" expanded="true" />
-            <element signature="e#2243#2311#1" expanded="true" />
-            <element signature="e#2324#2416#1" expanded="true" />
-            <element signature="e#2429#2506#1" expanded="true" />
-            <element signature="e#2519#2593#1" expanded="true" />
-            <element signature="e#2606#2638#1" expanded="true" />
-            <element signature="e#2651#2691#1" expanded="true" />
-            <element signature="e#2798#2836#1" expanded="true" />
-            <element signature="e#2846#2892#1" expanded="true" />
-            <element signature="e#2937#2982#1" expanded="true" />
-            <element signature="e#2997#3237#0" expanded="true" />
-            <element signature="e#3001#3050#1" expanded="true" />
-            <element signature="e#2997#3237#0" expanded="true" />
-            <element signature="e#3086#3114#1" expanded="true" />
-            <element signature="e#3131#3180#1" expanded="true" />
-            <element signature="e#3201#3218#0" expanded="true" />
-            <element signature="e#3201#3218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Tweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
@@ -591,6 +527,69 @@
             <element signature="e#2445#3267#0" expanded="true" />
             <element signature="e#2445#3267#0" expanded="true" />
             <element signature="e#2445#3267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/flink/TwitterWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#348#1" expanded="true" />
+            <element signature="e#677#763#1" expanded="true" />
+            <element signature="e#850#896#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Implementations/TweetMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="68" column="82" selection-start-line="68" selection-start-column="82" selection-end-line="68" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#567#1" expanded="true" />
+            <element signature="e#576#618#1" expanded="true" />
+            <element signature="e#627#669#1" expanded="true" />
+            <element signature="e#678#724#1" expanded="true" />
+            <element signature="e#814#851#1" expanded="true" />
+            <element signature="e#864#909#1" expanded="true" />
+            <element signature="e#922#963#1" expanded="true" />
+            <element signature="e#976#1031#1" expanded="true" />
+            <element signature="e#1044#1093#1" expanded="true" />
+            <element signature="e#1106#1145#1" expanded="true" />
+            <element signature="e#1158#1214#1" expanded="true" />
+            <element signature="e#1227#1290#1" expanded="true" />
+            <element signature="e#1303#1352#1" expanded="true" />
+            <element signature="e#1365#1432#1" expanded="true" />
+            <element signature="e#1445#1504#1" expanded="true" />
+            <element signature="e#1517#1574#1" expanded="true" />
+            <element signature="e#1607#1655#1" expanded="true" />
+            <element signature="e#1668#1729#1" expanded="true" />
+            <element signature="e#1742#1798#1" expanded="true" />
+            <element signature="e#1811#1887#1" expanded="true" />
+            <element signature="e#1900#1969#1" expanded="true" />
+            <element signature="e#1982#2035#1" expanded="true" />
+            <element signature="e#2048#2127#1" expanded="true" />
+            <element signature="e#2140#2230#1" expanded="true" />
+            <element signature="e#2243#2311#1" expanded="true" />
+            <element signature="e#2324#2416#1" expanded="true" />
+            <element signature="e#2429#2506#1" expanded="true" />
+            <element signature="e#2519#2593#1" expanded="true" />
+            <element signature="e#2606#2638#1" expanded="true" />
+            <element signature="e#2651#2691#1" expanded="true" />
+            <element signature="e#2798#2836#1" expanded="true" />
+            <element signature="e#2846#2892#1" expanded="true" />
+            <element signature="e#2937#2982#1" expanded="true" />
+            <element signature="e#2997#3237#0" expanded="true" />
+            <element signature="e#3001#3050#1" expanded="true" />
+            <element signature="e#2997#3237#0" expanded="true" />
+            <element signature="e#3086#3114#1" expanded="true" />
+            <element signature="e#3131#3180#1" expanded="true" />
+            <element signature="e#3201#3218#0" expanded="true" />
+            <element signature="e#3201#3218#0" expanded="true" />
           </folding>
         </state>
       </provider>
