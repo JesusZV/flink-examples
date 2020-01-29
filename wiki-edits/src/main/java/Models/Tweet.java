@@ -97,7 +97,7 @@ public class Tweet {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Tweet{" +
                 "id=" + id  +
                 ", id_str = '" + id_str + '\'' +
                 ", name = '" + name + '\'' +
