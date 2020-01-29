@@ -12,6 +12,10 @@ import org.apache.flink.util.Collector;
 
 import java.util.*;
 
+/**
+ * This example implements a flat map transformation to get each word coming from the status field on topic
+ *  conekta.public.codes from CDC
+ */
 public class KafkaWordCounter {
 
     public static void main(String[] args) throws Exception {

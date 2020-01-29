@@ -15,7 +15,8 @@ import java.util.Date;
 import java.util.Properties;
 
 /**
- * In this class i'll try to make an example of the windows usage on Apache Flink
+ * This class implements the window functions using time windows in order to get how many tweets in each language
+ * are happening on each minute
  */
 public class NumberOfTweetsPerLanguage {
 
@@ -37,9 +38,9 @@ public class NumberOfTweetsPerLanguage {
                     @Override
                     public void apply(String language, TimeWindow window, Iterable<Tweet> input,
                                       Collector<Tuple3<String, Long, Date>> out) throws Exception {
-
                         long count = 0;
-                        for (Tweet tweet: input) {
+
+                        for (Tweet tweet : input) {
                             count++;
                         }
                         out.collect(new Tuple3<>(language, count, new Date(window.getEnd())));

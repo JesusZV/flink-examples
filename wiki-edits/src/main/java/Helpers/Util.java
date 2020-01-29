@@ -6,6 +6,10 @@ import java.util.Properties;
 
 public class Util {
 
+    /**
+     * Gets the required properties to initialize the twitter connector
+     * @return required props to use twitter connector
+     */
     public Properties getTwitterProps() {
 
         Properties props = new Properties();
@@ -16,6 +20,10 @@ public class Util {
         return props;
     }
 
+    /**
+     * Gets the required props to initialize the kafka connector
+     * @return the required props to use kafka connector
+     */
     public Properties getKafkaProps() {
         Properties props = new Properties();
         props.setProperty(Constants.bootstrapservers, Constants.kafkaUrl);

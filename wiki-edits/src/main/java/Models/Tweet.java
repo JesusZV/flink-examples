@@ -2,6 +2,9 @@ package Models;
 
 import java.util.List;
 
+/**
+ * Model built to parse the twitter json to an Object with valuable fields
+ */
 public class Tweet {
 
     private long   id;

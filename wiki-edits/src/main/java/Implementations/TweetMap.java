@@ -4,11 +4,13 @@ import Models.Tweet;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.JsonNode;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ *  Class That parses the a twitter json String to a model with our required fields
+ */
 public class TweetMap implements MapFunction<String, Tweet> {
 
     static private final ObjectMapper mapper = new ObjectMapper();

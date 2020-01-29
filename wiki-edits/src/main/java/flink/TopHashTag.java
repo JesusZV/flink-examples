@@ -15,6 +15,10 @@ import org.apache.flink.util.Collector;
 import java.util.Date;
 import java.util.Properties;
 
+/**
+ *  This class implements the Flatmap and window apply method to find the tags that are appearing more often in a
+ *  time period of 20 seconds
+ */
 public class TopHashTag {
 
     public static void main(String[] args) throws Exception {

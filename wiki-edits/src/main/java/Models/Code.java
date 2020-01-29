@@ -1,5 +1,8 @@
 package Models;
 
+/**
+ * Model built to parse the kafka message to an object with valuable fields.
+ */
 public class Code {
 
     private Integer _id;

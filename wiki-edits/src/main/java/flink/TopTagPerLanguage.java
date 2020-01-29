@@ -10,9 +10,12 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.twitter.TwitterSource;
 import org.apache.flink.util.Collector;
-
 import java.util.Properties;
 
+/**
+ *  This example implements reduce methods and time windows to get all the tags that are appearing more often in
+ *  each language within a time period of 2 minutes
+ */
 public class TopTagPerLanguage {
 
     public static void main(String[] args) throws  Exception{

@@ -7,7 +7,7 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMap
 
 /**
  * Implements  the MapFunction Interface the first parameter on <String, Code>
- *  is the input value, the second is the output value
+ *  in order to parse the json String from kafka to our model built with our required fields
  */
 public  class CodeMap implements MapFunction<String, Code> {
 

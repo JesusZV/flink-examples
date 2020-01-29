@@ -1,5 +1,8 @@
 package Helpers;
 
+/**
+ * Constant class with shared variables
+ */
 public final class Constants {
 
     public static final String bootstrapservers = "bootstrap.servers";
