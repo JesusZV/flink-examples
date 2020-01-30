@@ -5,6 +5,7 @@ package Helpers;
  */
 public final class Constants {
 
+    public static final String schemaRegistryUrl = "http://localhost:8081";
     public static final String bootstrapservers = "bootstrap.servers";
     public static final String kafkaUrl = "localhost:9092";
     public static final String groupId = "group.id";

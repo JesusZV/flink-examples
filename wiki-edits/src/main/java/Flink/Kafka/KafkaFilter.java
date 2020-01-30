@@ -1,6 +1,5 @@
-package flink.kafka;
+package Flink.Kafka;
 
-import Helpers.Constants;
 import Helpers.Util;
 import Implementations.CodeMap;
 import org.apache.flink.api.common.functions.FilterFunction;

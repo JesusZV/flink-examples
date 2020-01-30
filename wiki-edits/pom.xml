@@ -20,8 +20,8 @@ under the License.
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>wiki-edits</groupId>
-	<artifactId>wiki-edits</artifactId>
+	<groupId>flink-examples</groupId>
+	<artifactId>flink-examples</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 
@@ -35,6 +35,7 @@ under the License.
 		<scala.binary.version>2.11</scala.binary.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<confluent.version>2.0.1</confluent.version>
 	</properties>
 
 	<repositories>
@@ -49,9 +50,17 @@ under the License.
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+
+		<repository>
+			<id>confluent</id>
+			<url>https://packages.confluent.io/maven/</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
+
+
+
 		<!-- Apache Flink dependencies -->
 		<!-- These dependencies are provided, because they should not be packaged into the JAR file. -->
 		<dependency>
@@ -65,6 +74,12 @@ under the License.
 			<artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
 			<version>${flink.version}</version>
 			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.confluent</groupId>
+			<artifactId>kafka-avro-serializer</artifactId>
+			<version>${confluent.version}</version>
 		</dependency>
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
@@ -101,6 +116,11 @@ under the License.
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-avro-confluent-registry</artifactId>
+			<version>1.6.1</version>
 		</dependency>
 	</dependencies>
 
@@ -154,7 +174,7 @@ under the License.
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>flink.kafka.KafkaFilter</mainClass>
+									<mainClass>Flink.Kafka.KafkaFilter</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

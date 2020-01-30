@@ -1,4 +1,4 @@
-package flink.twitter;
+package Flink.Twitter;
 
 import Helpers.Util;
 import Implementations.TweetMap;
