@@ -37,6 +37,8 @@ public class KafkaAvroFilter {
                 .print();
 
 
+
+
         env.execute("Kafka Avro filter");
 
     }
